@@ -1,0 +1,26 @@
+docker run --name newguest3 --env CSVSERVER_BORDER=Orange -d -p 9393:9300 -v /root/csvserver/solution/inputFile:/csvserver/inputdata:ro infracloudio/csvserver:latest
+
+
+
+##############################################################################################
+# We can use also use the docker-compose.yaml file to create the container as written below  #
+##############################################################################################
+
+version: '3'
+services:
+  app:
+    image: infracloudio/csvserver:latest
+    restart: always
+    read_only: true
+    environment:
+    - CSVSERVER_BORDER=Orange
+    ports:
+    - "9393:9300"
+    volumes:
+    - ./inputFile:/csvserver/inputdata
+
+
+
+
+
+docker-compose up -d
