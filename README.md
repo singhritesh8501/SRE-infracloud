@@ -4,7 +4,7 @@
 
 docker-compose.yaml file to create the containers
 
-![image](https://user-images.githubusercontent.com/59804934/123420502-3e03fb80-d5d9-11eb-9bb9-7b7113bd57a2.png)
+![image](https://user-images.githubusercontent.com/59804934/123502114-57ec1f80-d667-11eb-98dc-15b1a4531b16.png)
 
 ![image](https://user-images.githubusercontent.com/59804934/123420683-7d324c80-d5d9-11eb-9a57-68f9a071f138.png)
 
